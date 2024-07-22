@@ -1,10 +1,10 @@
-package com.sevenhallo.discoverysever;
+package com.sevenhallo.discovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DiscoveryseverApplicationTests {
+class DiscoveryApplicationTests {
 
 	@Test
 	void contextLoads() {
