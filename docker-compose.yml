@@ -1,0 +1,17 @@
+services:
+  common:
+    image: sevenhallo-discovery:latest
+    container_name: discovery
+    command: start-dev
+    ports:
+      - "8002:8002"
+    networks:
+      - sevenhallo
+
+volumes:
+  product-service:
+
+networks:
+  sevenhallo:
+    driver: bridge
+    external: true
