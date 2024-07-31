@@ -1,15 +1,15 @@
 services:
-  common:
+  discovery:
     image: sevenhallo-discovery:latest
     container_name: discovery
     command: start-dev
     ports:
-      - "8002:8002"
+      - "8761:8761"
     networks:
       - sevenhallo
 
 volumes:
-  product-service:
+  discovery:
 
 networks:
   sevenhallo:
